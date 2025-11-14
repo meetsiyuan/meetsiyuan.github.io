@@ -1,0 +1,21 @@
+/* 页脚透明 */
+#footer {
+  background: transparent !important;
+}
+#footer::before {
+  background: transparent !important;
+}
+
+/* 白天模式头图遮罩透明 */
+#page-header {
+  background: transparent !important;
+}
+#page-header::before {
+  background: transparent !important;
+}
+
+/* 夜间模式遮罩透明 */
+[data-theme="dark"] #footer::before,
+[data-theme="dark"] #page-header::before {
+  background: transparent !important;
+}
