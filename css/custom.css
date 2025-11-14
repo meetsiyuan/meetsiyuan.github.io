@@ -1,3 +1,13 @@
+/* ===========================
+   根变量，控制透明度与滤镜
+=========================== */
+:root {
+  --trans-light: rgba(255, 255, 255, 0.5);  /* 白天模式半透明 */
+  --trans-dark: rgba(25, 25, 25, 0.6);      /* 夜间模式半透明 */
+  --border-style: 1px solid rgba(200, 200, 200, 0.5);
+  --backdrop-filter: blur(5px) saturate(150%);
+}
+
 /* 页脚透明 */
 #footer {
   background: transparent !important;
@@ -48,4 +58,85 @@
   display: block;
   padding: 5px 15px;
   text-align: center;
+}
+
+
+
+
+
+/* ===========================
+   首页文章卡片
+=========================== */
+#recent-posts > .recent-post-item {
+  background: var(--trans-light) !important;
+  backdrop-filter: var(--backdrop-filter) !important;
+  border-radius: 25px !important;
+  border: var(--border-style) !important;
+}
+
+/* 首页侧栏卡片 */
+#aside-content .card-widget {
+  background: var(--trans-light) !important;
+  backdrop-filter: var(--backdrop-filter) !important;
+  border-radius: 18px !important;
+  border: var(--border-style) !important;
+}
+
+/* ===========================
+   文章页、归档页、普通页面
+=========================== */
+div#post,
+div#page,
+div#archive {
+  background: var(--trans-light) !important;
+  backdrop-filter: var(--backdrop-filter) !important;
+  border: var(--border-style) !important;
+  border-radius: 20px !important;
+}
+
+/* ===========================
+   导航栏（固定）
+=========================== */
+#page-header.nav-fixed #nav {
+  background: rgba(255, 255, 255, 0.75) !important;
+  backdrop-filter: var(--backdrop-filter) !important;
+}
+
+[data-theme="dark"] #page-header.nav-fixed #nav {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+
+/* ===========================
+   夜间模式遮罩
+=========================== */
+[data-theme="dark"] #recent-posts > .recent-post-item,
+[data-theme="dark"] #aside-content .card-widget,
+[data-theme="dark"] div#post,
+[data-theme="dark"] div#archive,
+[data-theme="dark"] div#page {
+  background: var(--trans-dark) !important;
+  border: 1px solid rgba(100, 100, 100, 0.5) !important;
+  color: #ffffff !important;
+}
+
+/* 夜间模式页脚和页头遮罩透明 */
+[data-theme="dark"] #footer::before {
+  background: transparent !important;
+}
+[data-theme="dark"] #page-header::before {
+  background: transparent !important;
+}
+
+/* ===========================
+   阅读模式
+=========================== */
+.read-mode #aside-content .card-widget,
+.read-mode div#post {
+  background: rgba(158, 204, 171, 0.5) !important;
+}
+
+[data-theme="dark"] .read-mode #aside-content .card-widget,
+[data-theme="dark"] .read-mode div#post {
+  background: rgba(25, 25, 25, 0.9) !important;
+  color: #ffffff !important;
 }
