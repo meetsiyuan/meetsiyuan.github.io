@@ -19,3 +19,33 @@
 [data-theme="dark"] #page-header::before {
   background: transparent !important;
 }
+
+
+/* 一级菜单居中 */
+#nav .menus_items {
+  position: absolute !important;
+  width: fit-content !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+/* 所有子菜单横向居中显示 */
+#nav .menus_items .menus_item {
+  position: relative;
+}
+
+#nav .menus_items .menus_item:hover .menus_item_child {
+  display: flex !important;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap; /* 防止换行 */
+}
+
+/* 可选：子菜单美化 */
+#nav .menus_items .menus_item_child a {
+  display: block;
+  padding: 5px 15px;
+  text-align: center;
+}
