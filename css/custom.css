@@ -2,8 +2,8 @@
    根变量，控制透明度与滤镜
 =========================== */
 :root {
-  --trans-light: rgba(255, 255, 255, 0.5);  /* 白天模式半透明 */
-  --trans-dark: rgba(25, 25, 25, 0.6);      /* 夜间模式半透明 */
+  --trans-light: rgba(255, 255, 255, 0.88);  /* 白天模式半透明 */
+  --trans-dark: rgba(25, 25, 25, 0.88);      /* 夜间模式半透明 */
   --border-style: 1px solid rgba(200, 200, 200, 0.5);
   --backdrop-filter: blur(5px) saturate(150%);
 }
