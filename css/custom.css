@@ -1,68 +1,86 @@
 /* ===========================
-   根变量，控制透明度与滤镜
+   根变量（透明磨砂）
 =========================== */
 :root {
-  --trans-light: rgba(255, 255, 255, 0.88);  /* 白天模式半透明 */
-  --trans-dark: rgba(25, 25, 25, 0.88);      /* 夜间模式半透明 */
-  --border-style: 1px solid rgba(200, 200, 200, 0.5);
-  --backdrop-filter: blur(5px) saturate(150%);
+  --trans-light: rgba(255, 255, 255, 0.88);
+  --trans-dark: rgba(25, 25, 25, 0.88);
+  --border-style: 1px solid rgba(200, 200, 200, 0.35);
+  --backdrop-filter: blur(6px) saturate(150%);
 }
 
-/* 页脚透明 */
-#footer {
-  background: transparent !important;
-}
-#footer::before {
-  background: transparent !important;
-}
-
-/* 白天模式头图遮罩透明 */
-#page-header {
-  background: transparent !important;
-}
+/* ===========================
+   页脚、头图透明
+=========================== */
+#footer,
+#footer::before,
+#page-header,
 #page-header::before {
   background: transparent !important;
 }
 
-/* 夜间模式遮罩透明 */
+/* 夜间模式 */
 [data-theme="dark"] #footer::before,
 [data-theme="dark"] #page-header::before {
   background: transparent !important;
 }
 
-
-/* 一级菜单居中 */
+/* ===========================
+   一级菜单居中
+=========================== */
 #nav .menus_items {
   position: absolute !important;
-  width: fit-content !important;
   left: 50% !important;
   transform: translateX(-50%) !important;
+  width: auto !important;
 }
 
-/* 所有子菜单横向居中显示 */
+/* 每个一级菜单项相对定位 */
 #nav .menus_items .menus_item {
   position: relative;
 }
 
-#nav .menus_items .menus_item:hover .menus_item_child {
-  display: flex !important;
+/* ===========================
+   子菜单（重点修复）
+=========================== */
+#nav .menus_items .menus_item_child {
   position: absolute;
   top: 100%;
-  left: 50%;
+  left: 50%;                  /* 以当前菜单项为中心 */
   transform: translateX(-50%);
-  white-space: nowrap; /* 防止换行 */
+  display: none;
+  white-space: nowrap;
+
+  padding: 4px 6px;
+  background: var(--trans-light);
+  border-radius: 10px;
+  backdrop-filter: var(--backdrop-filter);
+  border: var(--border-style);
+  gap: 0;                     /* 防止变太宽 */
 }
 
-/* 可选：子菜单美化 */
+/* hover 时显示子菜单 */
+#nav .menus_items .menus_item:hover .menus_item_child {
+  display: flex !important;
+}
+
+/* 子菜单项尺寸正常 */
 #nav .menus_items .menus_item_child a {
+  padding: 4px 12px;
   display: block;
-  padding: 5px 15px;
-  text-align: center;
+  border-radius: 6px;
+  transition: 0.2s;
 }
 
+/* hover效果 */
+#nav .menus_items .menus_item_child a:hover {
+  background: rgba(0, 0, 0, 0.12);
+}
 
-
-
+/* 夜间模式子菜单 */
+[data-theme="dark"] #nav .menus_items .menus_item_child {
+  background: var(--trans-dark);
+  border: 1px solid rgba(120, 120, 120, 0.4);
+}
 
 /* ===========================
    首页文章卡片
@@ -70,11 +88,13 @@
 #recent-posts > .recent-post-item {
   background: var(--trans-light) !important;
   backdrop-filter: var(--backdrop-filter) !important;
-  border-radius: 25px !important;
   border: var(--border-style) !important;
+  border-radius: 25px !important;
 }
 
-/* 首页侧栏卡片 */
+/* ===========================
+   侧栏卡片
+=========================== */
 #aside-content .card-widget {
   background: var(--trans-light) !important;
   backdrop-filter: var(--backdrop-filter) !important;
@@ -83,60 +103,41 @@
 }
 
 /* ===========================
-   文章页、归档页、普通页面
+   内容页面
 =========================== */
 div#post,
 div#page,
 div#archive {
   background: var(--trans-light) !important;
   backdrop-filter: var(--backdrop-filter) !important;
-  border: var(--border-style) !important;
   border-radius: 20px !important;
+  border: var(--border-style) !important;
 }
 
 /* ===========================
-   导航栏（固定）
+   固定导航栏透明磨砂
 =========================== */
 #page-header.nav-fixed #nav {
   background: rgba(255, 255, 255, 0.75) !important;
   backdrop-filter: var(--backdrop-filter) !important;
+
+}
+  /* 子菜单基于父菜单居中 */
+#nav .menus_items .menus_item .menus_item_child {
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: max-content !important;      /* 避免子菜单变宽 */
+  min-width: auto !important;         /* 防止强制拉伸 */
 }
 
-[data-theme="dark"] #page-header.nav-fixed #nav {
-  background: rgba(0, 0, 0, 0.7) !important;
+
+/* 强制显示 abstract */
+.hbe-container p {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  margin-bottom: 16px;
+  font-size: 15px;
+  color: #666;
 }
 
-/* ===========================
-   夜间模式遮罩
-=========================== */
-[data-theme="dark"] #recent-posts > .recent-post-item,
-[data-theme="dark"] #aside-content .card-widget,
-[data-theme="dark"] div#post,
-[data-theme="dark"] div#archive,
-[data-theme="dark"] div#page {
-  background: var(--trans-dark) !important;
-  border: 1px solid rgba(100, 100, 100, 0.5) !important;
-  color: #ffffff !important;
-}
-
-/* 夜间模式页脚和页头遮罩透明 */
-[data-theme="dark"] #footer::before {
-  background: transparent !important;
-}
-[data-theme="dark"] #page-header::before {
-  background: transparent !important;
-}
-
-/* ===========================
-   阅读模式
-=========================== */
-.read-mode #aside-content .card-widget,
-.read-mode div#post {
-  background: rgba(158, 204, 171, 0.5) !important;
-}
-
-[data-theme="dark"] .read-mode #aside-content .card-widget,
-[data-theme="dark"] .read-mode div#post {
-  background: rgba(25, 25, 25, 0.9) !important;
-  color: #ffffff !important;
-}

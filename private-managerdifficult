@@ -1,0 +1,263 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>作为基层主管的困难 | 思思の书房</title><meta name="author" content="思思"><meta name="copyright" content="思思"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="做了主管以后才知道当领导是一个很痛苦的事情">
+<meta property="og:type" content="article">
+<meta property="og:title" content="作为基层主管的困难">
+<meta property="og:url" content="http://meetsiyuan.com/private-managerdifficult">
+<meta property="og:site_name" content="思思の书房">
+<meta property="og:description" content="做了主管以后才知道当领导是一个很痛苦的事情">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://mypicegypt-1314583908.cos.eu-frankfurt.myqcloud.com/Obsidian%20Pic/Pic/20251114221122212.jpg">
+<meta property="article:published_time" content="2026-01-30T23:27:10.030Z">
+<meta property="article:modified_time" content="2026-01-30T23:53:47.784Z">
+<meta property="article:author" content="思思">
+<meta property="article:tag" content="口吃">
+<meta property="article:tag" content="成长">
+<meta property="article:tag" content="沟通">
+<meta property="article:tag" content="私密">
+<meta property="article:tag" content="职场">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://mypicegypt-1314583908.cos.eu-frankfurt.myqcloud.com/Obsidian%20Pic/Pic/20251114221122212.jpg"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "作为基层主管的困难",
+  "url": "http://meetsiyuan.com/private-managerdifficult",
+  "image": "https://mypicegypt-1314583908.cos.eu-frankfurt.myqcloud.com/Obsidian%20Pic/Pic/20251114221122212.jpg",
+  "datePublished": "2026-01-30T23:27:10.030Z",
+  "dateModified": "2026-01-30T23:53:47.784Z",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "思思",
+      "url": "http://meetsiyuan.com"
+    }
+  ]
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://meetsiyuan.com/private-managerdifficult"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//static.cloudflareinsights.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.2"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script defer="defer" data-pjax="data-pjax" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;[object Object]&quot;}"></script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.json","preload":false,"top_n_per_article":1,"unescape":false,"pagination":{"enable":false,"hitsPerPage":8},"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.12.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '作为基层主管的困难',
+  isHighlightShrink: false,
+  isToc: true,
+  pageType: 'post'
+}</script><link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"><meta name="generator" content="Hexo 8.1.1"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>(()=>{
+  const $loadingBox = document.getElementById('loading-box')
+  const $body = document.body
+  const preloader = {
+    endLoading: () => {
+      if ($loadingBox.classList.contains('loaded')) return
+      $body.style.overflow = ''
+      $loadingBox.classList.add('loaded')
+    },
+    initLoading: () => {
+      $body.style.overflow = 'hidden'
+      $loadingBox.classList.remove('loaded')
+    }
+  }
+
+  preloader.initLoading()
+
+  if (document.readyState === 'complete') {
+    preloader.endLoading()
+  } else {
+    window.addEventListener('load', preloader.endLoading)
+    document.addEventListener('DOMContentLoaded', preloader.endLoading)
+    // Add timeout protection: force end after 7 seconds
+    setTimeout(preloader.endLoading, 7000)
+  }
+
+  if (false) {
+    btf.addGlobalFn('pjaxSend', preloader.initLoading, 'preloader_init')
+    btf.addGlobalFn('pjaxComplete', preloader.endLoading, 'preloader_end')
+  }
+})()</script><div id="web_bg" style="background-image: url(https://mypicegypt-1314583908.cos.eu-frankfurt.myqcloud.com/Obsidian%20Pic/Pic/20251114202733888.jpg);"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="https://mypicegypt-1314583908.cos.eu-frankfurt.myqcloud.com/Obsidian%20Pic/Pic/20251114221122212.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">11</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">15</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/shuoshuo/"><i class="fa-fw fas fa-comment"></i><span> MyTalk</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><span class="site-page group hide"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="post type-post" id="body-wrap"><header class="post-bg fixed" id="page-header"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">思思の书房</span></a><a class="nav-page-title" href="/"><span class="site-name">作为基层主管的困难</span><span class="site-name"><i class="fa-solid fa-circle-arrow-left"></i><span>  返回首页</span></span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/shuoshuo/"><i class="fa-fw fas fa-comment"></i><span> MyTalk</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><span class="site-page group hide"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="post-info"><h1 class="post-title">作为基层主管的困难</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2026-01-30T23:27:10.030Z" title="发表于 2026-01-31 01:27:10">2026-01-31</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2026-01-30T23:53:47.784Z" title="更新于 2026-01-31 01:53:47">2026-01-31</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%81%8C%E5%9C%BA/">职场</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">总字数:</span><span class="word-count">6</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>1分钟</span></span><span class="post-meta-separator">|</span><span class="leancloud_visitors" id="/private-managerdifficult" data-flag-title="作为基层主管的困难"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">浏览量:</span><span class="leancloud-visitors-count"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="container post-content" id="article-container"><div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="aefeb0e4acc6f62f8a0532012df6070cbb9d90848168033e838399ef59c275a4">11d63ba5dc18b00532b82ab4b36defea326774da2f66a765e171830afbde3cd18ffb700d4666788664bbc30ed45c267d99de7107b1b90d79ae5ce7c2dd9772b1dd3d96f90cefaadc655c095f034911beb21c55f1fa1a0aa50d5ba03a59c3835b04297648940f2583a516b46182a8783f61398e710551c3c4a802bc595cdf394c59fce1a6e749e6697f1ec34534427fe23edd6994c04949cbe9d6121c173c92388f6db8aa112ab8c4a6398c59b9b861cf6cd14d75d6b49949efe5eaeaacf0497efcba592f5aca28af440421dd8e824ec7d7e0f1c57d67d0d57c46992bdb6cdf77d6aa58872bc4c8170eb11bdeb56251c5c3eae2ce543960bd2049972f54183c6ff73e9efcf51830629d8c73236c0f3230c90d9e1d562fc1a1b71fabd3ebe562df5b6c19d9e1a3eaffc69d31d23d280e71ea4053318d2fb6588bf95554cf8e9bede58c4920a411eed4884601617e64da4da4e55d89a8575e094f35792ce67f930c78568602c1c918dc690b61538612b8a411ae872f28ccf4e527ebba44ca946aaf4e9886c58c35886761fe3fc41db960affa3c4b90d5a97c1054434e0f7b8b6b36a413cb6edcd89c423be72f58e84f2f747c1b39f31c6ea9d0c8c076a9a79b86846d12ec3120964db914d98340196694475cf239fea50350099dc9f1cca4c4497c652d274571abd370d4a9e7923e1c9f8e7546afa025b70f6f3316dfa9ea4627ee8b500b56c51648e2974f2283cf25cd7f7b145727ba79322c8a55751af44da3eb8607e4d1c05e95aee2c0fe6acedd2482696cfe2912b6733b729ad122aaac5db199fa32abc554812d7d9c36e04420d3ebeb81788fe50d3fe286911cfc75ab647c2893150eb5f3ec9f27e6c33f6b11bbb3bf57d381f63b54e469021c37ce5bfe64d3e84f4687dfed8b3a3bb030c6233e70851c91dc02e56b8011942a53f9c730fc40719d91fb68f230786f0a8a4eefaca2f84b317efdfda38109adbf3b8de7dcc86068f8c7a47548477cc4cb589b55669254fad9407393bb9dc06e49f2f3363113f2be57d8e67c57d84bebaa3c52eeb2a1e9fa3dae0064cf838670fd14ce772f7a7a79de3ee2112675b07c8decc83b2ed15f9e3f38ef82f62a58eda4967e716dcd6d6de7f40b91a3adf14e9273ec43aaf3e63cd4e54cf9b00f7e8cb7a7b9b836ccd3f5554e51baaafb9f2202357129b784190ccdbcf6a472d341f6a9a60b72eda4f5d19d2ad83c1ce63ddfd1b9a71ece654a16bdbc59809ca57353d262081aecabb96c2db86831d501932e2ca4d48c06f7f9d466c6ccfa4326d341375654092614a3e9b154e7508b97cf10c6a20ae86994</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">请输入密码</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css"></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://meetsiyuan.com">思思</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://meetsiyuan.com/private-managerdifficult">http://meetsiyuan.com/private-managerdifficult</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来源 <a href="http://meetsiyuan.com" target="_blank">思思の书房</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E8%81%8C%E5%9C%BA/">职场</a><a class="post-meta__tags" href="/tags/%E6%88%90%E9%95%BF/">成长</a><a class="post-meta__tags" href="/tags/%E6%B2%9F%E9%80%9A/">沟通</a><a class="post-meta__tags" href="/tags/%E5%8F%A3%E5%90%83/">口吃</a><a class="post-meta__tags" href="/tags/%E7%A7%81%E5%AF%86/">私密</a></div><div class="post-share"><div class="social-share" data-image="https://mypicegypt-1314583908.cos.eu-frankfurt.myqcloud.com/Obsidian%20Pic/Pic/20251114221122212.jpg" data-sites="facebook,x,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.6/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><a class="pagination-related full-width" href="/2026/01/30/%E4%BA%BA%E7%94%9F%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%81%8C%E4%B8%9A%E5%8D%B1%E6%9C%BA/" title="职业人生路上的危机"><img class="cover" src="https://mypicegypt-1314583908.cos.eu-frankfurt.myqcloud.com/Obsidian%20Pic/Pic/20260130165156990.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="info text-right"><div class="info-1"><div class="info-item-1">下一篇</div><div class="info-item-2">职业人生路上的危机</div></div><div class="info-2"><div class="info-item-1">职业人生路上，何去何从</div></div></div></a></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><a class="pagination-related" href="/2026/01/30/%E4%BA%BA%E7%94%9F%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%81%8C%E4%B8%9A%E5%8D%B1%E6%9C%BA/" title="职业人生路上的危机"><img class="cover" src="https://mypicegypt-1314583908.cos.eu-frankfurt.myqcloud.com/Obsidian%20Pic/Pic/20260130165156990.jpg" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-01-30</div><div class="info-item-2">职业人生路上的危机</div></div><div class="info-2"><div class="info-item-1">职业人生路上，何去何从</div></div></div></a><a class="pagination-related" href="/2026/01/23/%E5%B9%B4%E8%BD%BB%E5%B0%B1%E8%A6%81%E5%81%9A%E5%81%9A%E7%88%B1/" title="年轻就要多做爱"><img class="cover" src="https://mypicegypt-1314583908.cos.eu-frankfurt.myqcloud.com/Obsidian%20Pic/Pic/20260124011253214.jpg" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-01-23</div><div class="info-item-2">年轻就要多做爱</div></div><div class="info-2"><div class="info-item-1">让年轻的我们热烈去做爱吧<br>爱是最小的共产主义单元</div></div></div></a><a class="pagination-related" href="/2026/01/20/%E6%B2%9F%E9%80%9A%E4%BA%A4%E6%B5%81%E8%83%BD%E5%8A%9B%E7%9A%84%E8%AE%B0%E5%BD%95%E5%AE%9A%E6%9C%9F%E8%AE%B0%E5%BD%95%20-%20Jan%2020st%202026/" title="沟通交流能力的记录定期记录 - Jan 20st 2026"><img class="cover" src="https://mypicegypt-1314583908.cos.eu-frankfurt.myqcloud.com/Obsidian%20Pic/Pic/20260120012920428.jpg" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-01-20</div><div class="info-item-2">沟通交流能力的记录定期记录 - Jan 20st 2026</div></div><div class="info-2"><div class="info-item-1">人生路上的永恒的敌人<br>Stuttering</div></div></div></a><a class="pagination-related" href="/2026/01/29/%E3%80%90%E8%81%8C%E5%9C%BA%E3%80%91%E6%80%A7%E3%80%81%E8%87%AA%E7%94%B1%E4%B8%8E%E4%BB%A3%E4%BB%B7%EF%BC%9A%E4%B8%80%E6%AC%A1%E8%81%8C%E5%9C%BA%E8%BE%B9%E7%95%8C%E7%9A%84%E5%8F%8D%E6%80%9D/" title="性、自由与代价：一次职场边界的反思"><img class="cover" src="https://mypicegypt-1314583908.cos.eu-frankfurt.myqcloud.com/Obsidian%20Pic/Pic/20260130110719714.jpg" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2026-01-29</div><div class="info-item-2">性、自由与代价：一次职场边界的反思</div></div><div class="info-2"><div class="info-item-1">职业生涯中的底线，是对人生的长期保护</div></div></div></a><a class="pagination-related" href="/2025/12/22/%E3%80%90%E8%81%8C%E5%9C%BA%E3%80%91%E9%A3%8E%E9%99%A9%E8%A7%84%E9%81%BF%E5%9E%8B%E9%A2%86%E5%AF%BC%E7%9A%84%E7%9B%B8%E5%A4%84%E6%A8%A1%E5%BC%8F/" title="风险规避型领导的相处模式"><img class="cover" src="https://mypicegypt-1314583908.cos.eu-frankfurt.myqcloud.com/Obsidian%20Pic/Pic/20251222015051836.jpg" alt="cover"><div class="info text-center"><div class="info-1"><div class="info-item-1"><i class="far fa-calendar-alt fa-fw"></i> 2025-12-22</div><div class="info-item-2">风险规避型领导的相处模式</div></div><div class="info-2"><div class="info-item-1">1 背景 起因：年终面临指标冲刺，我发了一个通报邮件给不同区域的XX部门的主管们和行业线领导A，提醒他们注意相关指标进展，最后10天务必要完成 冲突：行业线领导A邮件单独回复我，质问道：你是代表机关还是代表谁？你提我名字，难道不是应该你代表我去推动XX部门完成吗？ 权力背景： 不同区域的主管 属于我的内部客户，影响第二年的业务签署 中度影响，如果只有1~2个区域业务签署量低，则对我影响不大   对我没有考评权，有弱投诉权   行业性领导A  指导不同区域的主管，对他们有推荐权，没有考评权 指导我的部门工作，对我没有考评权，有强投诉权      2 处理过程 私聊 向行业线领导A私聊说，其他指标已经推动完成，仅差XX、XX、XX指标未完成。由于我是服务不同区域主管，我对他们的影响力较小，为了最后10天的冲刺，提了行业线领导A的名字，是希望他可以帮忙邮件支撑下帮忙推动   处理效果评价 ChatGPT分析：意义不大，于事无补，因为A属于“风险规避型领导”    3 冲突的本质3.1 默认角色理解差异 我心里的角色模型 （理性导向）  指标是我在推动 数据、节奏、动作在我手里 我是执行...</div></div></div></a></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="https://mypicegypt-1314583908.cos.eu-frankfurt.myqcloud.com/Obsidian%20Pic/Pic/20251114221122212.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">思思</div><div class="author-info-description">善意与认真，赠与有缘人</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">11</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">15</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://www.instagram.com/meetsiyuan"><i class="fab fa-instagram"></i><span>Follow Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="mailto:meetsiyuan@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a><a class="social-icon" href="https://space.bilibili.com/300947267" target="_blank" title="Bilibili"><i class="fab fa-bilibili" style="color: #00A1D6;"></i></a><a class="social-icon" href="https://weibo.com/u/6626742666" target="_blank" title="微博"><i class="fab fa-weibo" style="color: #e6162d;"></i></a><a class="social-icon" href="https://www.zhihu.com/people/meetsiyuan" target="_blank" title="知乎"><i class="fab fa-zhihu" style="color: #0084ff;"></i></a><a class="social-icon" href="https://www.douyin.com/user/meetshawn" target="_blank" title="抖音"><i class="fab fa-tiktok" style="color: #FF2D55;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content"><div style="text-align: center;">
+  某大厂搬砖<br> 常驻埃及工作<br>
+  梦想是环游世界<br>
+</div>
+<img src="https://mypicegypt-1314583908.cos.eu-frankfurt.myqcloud.com/Obsidian%20Pic/Pic/20251110010937551.jpg" style="max-width:100%;">
+</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content toc-div-class" style="display:none"></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/private-managerdifficult" title="作为基层主管的困难">作为基层主管的困难</a><time datetime="2026-01-30T23:27:10.030Z" title="发表于 2026-01-31 01:27:10">2026-01-31</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/01/30/%E4%BA%BA%E7%94%9F%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%81%8C%E4%B8%9A%E5%8D%B1%E6%9C%BA/" title="职业人生路上的危机"><img src="https://mypicegypt-1314583908.cos.eu-frankfurt.myqcloud.com/Obsidian%20Pic/Pic/20260130165156990.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="职业人生路上的危机"/></a><div class="content"><a class="title" href="/2026/01/30/%E4%BA%BA%E7%94%9F%E7%9A%84%E7%AC%AC%E4%B8%80%E6%AC%A1%E8%81%8C%E4%B8%9A%E5%8D%B1%E6%9C%BA/" title="职业人生路上的危机">职业人生路上的危机</a><time datetime="2026-01-30T09:22:40.393Z" title="发表于 2026-01-30 11:22:40">2026-01-30</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/01/29/%E3%80%90%E8%81%8C%E5%9C%BA%E3%80%91%E6%80%A7%E3%80%81%E8%87%AA%E7%94%B1%E4%B8%8E%E4%BB%A3%E4%BB%B7%EF%BC%9A%E4%B8%80%E6%AC%A1%E8%81%8C%E5%9C%BA%E8%BE%B9%E7%95%8C%E7%9A%84%E5%8F%8D%E6%80%9D/" title="性、自由与代价：一次职场边界的反思"><img src="https://mypicegypt-1314583908.cos.eu-frankfurt.myqcloud.com/Obsidian%20Pic/Pic/20260130110719714.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="性、自由与代价：一次职场边界的反思"/></a><div class="content"><a class="title" href="/2026/01/29/%E3%80%90%E8%81%8C%E5%9C%BA%E3%80%91%E6%80%A7%E3%80%81%E8%87%AA%E7%94%B1%E4%B8%8E%E4%BB%A3%E4%BB%B7%EF%BC%9A%E4%B8%80%E6%AC%A1%E8%81%8C%E5%9C%BA%E8%BE%B9%E7%95%8C%E7%9A%84%E5%8F%8D%E6%80%9D/" title="性、自由与代价：一次职场边界的反思">性、自由与代价：一次职场边界的反思</a><time datetime="2026-01-29T15:10:11.205Z" title="发表于 2026-01-29 17:10:11">2026-01-29</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/01/23/%E5%B9%B4%E8%BD%BB%E5%B0%B1%E8%A6%81%E5%81%9A%E5%81%9A%E7%88%B1/" title="年轻就要多做爱"><img src="https://mypicegypt-1314583908.cos.eu-frankfurt.myqcloud.com/Obsidian%20Pic/Pic/20260124011253214.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="年轻就要多做爱"/></a><div class="content"><a class="title" href="/2026/01/23/%E5%B9%B4%E8%BD%BB%E5%B0%B1%E8%A6%81%E5%81%9A%E5%81%9A%E7%88%B1/" title="年轻就要多做爱">年轻就要多做爱</a><time datetime="2026-01-23T21:32:22.444Z" title="发表于 2026-01-23 23:32:22">2026-01-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/01/20/%E6%B2%9F%E9%80%9A%E4%BA%A4%E6%B5%81%E8%83%BD%E5%8A%9B%E7%9A%84%E8%AE%B0%E5%BD%95%E5%AE%9A%E6%9C%9F%E8%AE%B0%E5%BD%95%20-%20Jan%2020st%202026/" title="沟通交流能力的记录定期记录 - Jan 20st 2026"><img src="https://mypicegypt-1314583908.cos.eu-frankfurt.myqcloud.com/Obsidian%20Pic/Pic/20260120012920428.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="沟通交流能力的记录定期记录 - Jan 20st 2026"/></a><div class="content"><a class="title" href="/2026/01/20/%E6%B2%9F%E9%80%9A%E4%BA%A4%E6%B5%81%E8%83%BD%E5%8A%9B%E7%9A%84%E8%AE%B0%E5%BD%95%E5%AE%9A%E6%9C%9F%E8%AE%B0%E5%BD%95%20-%20Jan%2020st%202026/" title="沟通交流能力的记录定期记录 - Jan 20st 2026">沟通交流能力的记录定期记录 - Jan 20st 2026</a><time datetime="2026-01-19T23:28:45.778Z" title="发表于 2026-01-20 01:28:45">2026-01-20</time></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 - 2026 By 思思</span></div><div class="footer_custom_text">唯文字，比时间短，比爱情久</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="前往评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.2"></script><script src="/js/main.js?v=5.5.2"></script><div class="js-pjax"><script>(() => {
+  const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
+  const option = null
+
+  const initValine = (el, path) => {
+    if (isShuoshuo) {
+      window.shuoshuoComment.destroyValine = () => {
+        if (el.children.length) {
+          el.innerHTML = ''
+          el.classList.add('no-comment')
+        }
+      }
+    }
+
+    const valineConfig = {
+      el: '#vcomment',
+      appId: 'QfNLZV0SWxenvROSft16Vlp6-gzGzoHsz',
+      appKey: 'YfQD7X02UnlakPb9HIzbdHU2',
+      avatar: 'wavatar',
+      serverURLs: '',
+      emojiMaps: "",
+      visitor: true,
+      ...option,
+      path: isShuoshuo ? path : (option && option.path) || window.location.pathname
+    }
+
+    new Valine(valineConfig)
+  }
+
+  const loadValine = async (el, path) => {
+    if (typeof Valine === 'function') {
+      initValine(el, path)
+    } else {
+      await btf.getScript('https://cdn.jsdelivr.net/npm/valine@1.5.3/dist/Valine.min.js')
+      initValine(el, path)
+    }
+  }
+
+  if (isShuoshuo) {
+    'Valine' === 'Valine'
+      ? window.shuoshuoComment = { loadComment: loadValine }
+      : window.loadOtherComment = loadValine
+    return
+  }
+
+  if ('Valine' === 'Valine' || !false) {
+    if (false) btf.loadComment(document.getElementById('vcomment'),loadValine)
+    else setTimeout(loadValine, 0)
+  } else {
+    window.loadOtherComment = loadValine
+  }
+})()</script></div><script async data-pjax src="https://cdn.jsdelivr.net/gh/iview/iview-admin-busuanzi/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><i class="fas fa-spinner fa-pulse" id="loading-status" hidden="hidden"></i><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="local-search-input"><input placeholder="搜索文章" type="text"/></div><hr/><div id="local-search-results"></div><div class="ais-Pagination" id="local-search-pagination" style="display:none;"><ul class="ais-Pagination-list"></ul></div><div id="local-search-stats"></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.5.2"></script></div></div></body></html>
